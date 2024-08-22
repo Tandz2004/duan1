@@ -1,0 +1,7 @@
+1. Tất cả DL phải được nhập
+2. Tên: chỉ được nhập chữ cái và khoảng trắng
+3. email: đúng định dạng email
+4. sđt: =10 số
+5. ngày sinh: lớn hơn 16 tuổi
+6. MK: lớn hơn 8 ký tự
+7. Nhập lại MK = MK

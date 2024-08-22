@@ -1,0 +1,1299 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1C1F20;
+}
+
+.boxcenter {
+    position: relative;
+    width: auto;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boxcenter>.admin{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background-color: #D0BFFF;
+}
+
+.tieude{
+    position: relative;
+    height: 60px;
+    background-color: #D0BFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tieude>h1{
+    margin: 0;
+    color: red;
+}
+
+.tieude>a{
+    position: absolute;
+    right: 10px;
+    height: 35px;
+    padding: 0 8px;
+    background-color: rgb(0, 183, 255);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    border-radius: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxcenter>header{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 50px;
+}
+
+.boxcenter>header>.menu{
+    z-index: 100;
+    width: 300px;
+    height: auto;
+}
+
+.boxcenter>header>.menu>.menu_nho{
+    position: fixed;
+    z-index: 100;
+    width: 300px;
+    height: 900px;
+    background-color: #D0BFFF;
+}
+
+.boxcenter>header>.menu>.rowmbmenu{
+    padding: 0 0 80px 0;
+
+}
+
+.rowmbmenu>.anh{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rowmbmenu>.anh>.logo{
+    height: auto;
+    width: 230px;
+}
+
+.rowmbmenu>.thongbao>h5{
+    text-align: center;
+    margin: 0;
+}
+
+.rowmbmenu>hr{
+    margin: 0 10px;
+}
+
+.rowmbmenu>ul{
+    list-style: none;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+.rowmbmenu>ul>li{
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.rowmbmenu>ul>li:hover{
+    border-radius: 10px;
+    background-color: #59419a;
+}
+
+.rowmbmenu>ul>li:hover a{
+    color: red;
+}
+
+.rowmbmenu>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.boxcenter>header>.rowmbheader_admin{
+    background-image: url(../img/anhnen/hinh-nen-may-tinh-de-thuong-nhat.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 180px;
+    padding-bottom: 230px;
+}
+
+.boxcenter>header>.rowmbheader_admin>h3{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+}
+
+.boxcenter>header>.rowmbheader_admin>p{
+    text-align: center;
+    font-size: 25px;
+    color: brown;
+}
+
+.boxcenter>header>.rowmbheader_admin>h5{
+    text-align: center;
+    font-size: 20px;
+    color: darkorchid;
+}
+
+
+
+/*👉=========================================
+                    Danh mục
+=========================================👈*/
+
+.danhmuc{
+    padding: 20px 20px 0 20px;
+
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+.row2mb10formds_danhmuc>table{
+    width: 100%;
+}
+
+.row2mb10formds_danhmuc>table tr td{
+    height: 50px;
+}
+
+.row2mb10formds_danhmuc>table tr td:nth-child(1){
+    width: 5%;
+    text-align: center;
+}
+
+.row2mb10formds_danhmuc>table tr td:nth-child(2){
+    width: 20%;
+    text-align: center;
+}
+
+.row2mb10formds_danhmuc>table tr td:nth-child(3){
+    width: 60%;
+    text-align: center;
+}
+
+.row2mb10formds_danhmuc>table tr td:nth-child(4){
+    width: 10%;
+    text-align: center;
+}
+
+.row2mb10formds_danhmuc>table tr td:nth-child(4) a input{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 80px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.row2mb10formds_danhmuc>table tr td:nth-child(4) a input:hover{
+    background-color: red;
+}
+
+.rowmb10>.mr20{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    background-color: red;
+}
+
+.rowmb10>button{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    background-color: red;
+}
+
+.rowmb10>button>a{
+    text-decoration: none;
+    color: white;
+}
+/*👉=========================================
+                End Danh mục
+=========================================👈*/
+
+/*👉=========================================
+                ADD Danh mục
+=========================================👈*/
+
+.add_danhmuc{
+    margin: 0 20px 0 20px;
+}
+
+.themdanhmuc{
+    padding-left: 10px;
+}
+
+.themdanhmuc>input{
+    height: 30px;
+    padding-left: 10px;
+    width: 380px;
+    margin-top: 20px;
+}
+
+.add_danhmuc_chucnang{
+    padding-left: 10px;
+}
+
+.add_danhmuc_chucnang>input{
+    height: 35px;
+    min-width: 90px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.add_danhmuc_chucnang>input:hover{
+    background-color: red;
+}
+
+.add_danhmuc_chucnang>a>input{
+    height: 35px;
+    min-width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.add_danhmuc_chucnang>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+            End ADD Danh mục
+=========================================👈*/
+
+
+/*👉=
+=
+=
+=
+=
+=
+=👈*/
+
+
+/*👉=========================================
+                Sản phẩm
+=========================================👈*/
+
+.row3{
+    padding: 20px 20px 0 20px;
+
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+
+.nhap_sptimkiem{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.loaisp{
+    width: 300px;
+    height: 30px;
+}
+
+.timkiem_sp{
+    height: 30px;
+    width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    border: 0;
+    background-color: burlywood;
+}
+
+.timkiem_sp:hover{
+    background-color: red;
+}
+
+.row3mb10formds_loai>table{
+    background-color: #2A2E2F;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row3mb10formds_loai>table tr td{
+    height: 50px;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(1){
+    width: 5%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(2){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(3){
+    width: 20%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(4){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(5){
+    width: 8%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(6){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(6) img{
+    height: 150px;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(7){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(8){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(9){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(9) a input{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 80px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(9) a input:hover{
+    background-color: red;
+}
+
+.rowmb_sanpham>a>input{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.rowmb_sanpham>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+                End Sản phẩm
+=========================================👈*/
+
+/*👉=========================================
+                ADD Sản phẩm
+=========================================👈*/
+
+.add_sanpham{
+    padding: 20px 20px 0 20px;
+
+}
+
+.add_sanpham>.row2form_content>form>.add_sp{
+    display: grid;
+    padding: 20px 20px 0 20px;
+
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham{
+    margin-bottom: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>.mota{
+    min-height: 90px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.thongtin_sanpham>select{
+    width: 385px;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+.nut_chucnang{
+    margin-bottom: 50px;
+    padding: 0 0 0 20px;
+}
+
+.nut_chucnang>input{
+    height: 35px;
+    width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.nut_chucnang>input:hover{
+    background-color: red;
+}
+
+.nut_chucnang>a>input{
+    height: 35px;
+    min-width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.nut_chucnang>a>input:hover{
+    background-color: red;
+}
+/*👉=========================================
+            End ADD Sản phẩm
+=========================================👈*/
+
+/*👉=========================================
+                Sửa Sản phẩm
+=========================================👈*/
+
+.sua_sanpham{
+    padding: 20px 20px 0 20px;
+
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp{
+    display: grid;
+    padding: 20px 20px 0 20px;
+
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham{
+    margin-bottom: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.sua_sanpham>.row2form_content>form>.add_sp>.thongtin_sanpham>.mota{
+    min-height: 90px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.thongtin_sanpham>select{
+    width: 385px;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+.nut_chucnang{
+    margin-bottom: 50px;
+    padding: 0 0 0 20px;
+}
+
+.nut_chucnang>input{
+    height: 35px;
+    min-width: 90px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.nut_chucnang>input:hover{
+    background-color: red;
+}
+
+.nut_chucnang>a>input{
+    height: 35px;
+    min-width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.nut_chucnang>a>input:hover{
+    background-color: red;
+}
+/*👉=========================================
+            End Sửa Sản phẩm
+=========================================👈*/
+
+/*👉=
+=
+=
+=
+=👈*/
+
+/*👉=========================================
+                Khách hàng
+=========================================👈*/
+
+.listkh{
+    padding: 20px 20px 0 20px;
+
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+
+.nhap_sptimkiem{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.loaisp{
+    width: 300px;
+    height: 30px;
+}
+
+.timkiem_sp{
+    height: 30px;
+    width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    border: 0;
+    background-color: burlywood;
+}
+
+.timkiem_sp:hover{
+    background-color: red;
+}
+
+.row3mb10formds_loai>table{
+    background-color: #2A2E2F;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row3mb10formds_loai>table tr td{
+    height: 50px;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(1){
+    width: 3%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(2){
+    width: 6%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(3){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(4){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(5){
+    width: 20%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(6){
+    width: 13%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(7){
+    width: 7%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(8){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(8) a input{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 80px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.row3mb10formds_loai>table tr td:nth-child(8) a input:hover{
+    background-color: red;
+}
+
+
+.rowmb_sanpham>a>input{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.rowmb_sanpham>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+                End Khách hàng
+=========================================👈*/
+
+
+/*👉=========================================
+                ADD Khách hàng
+=========================================👈*/
+
+.add_sanpham{
+    padding: 20px 20px 0 20px;
+
+}
+
+.add_khachhang>.row2form_content>form>.add_sp{
+    display: grid;
+    padding: 20px 20px 0 20px;
+
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham{
+    margin-bottom: 20px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>input{
+    height: 35px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>.mota{
+    min-height: 90px;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.add_khachhang>.row2form_content>form>.add_sp>.thongtin_sanpham>select{
+    width: 385px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+
+.nut_chucnang{
+    margin-bottom: 50px;
+    padding: 0 0 0 20px;
+}
+
+.nut_chucnang>input{
+    height: 35px;
+    width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.nut_chucnang>input:hover{
+    background-color: red;
+}
+
+.nut_chucnang>a>input{
+    height: 35px;
+    min-width: 80px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.nut_chucnang>a>input:hover{
+    background-color: red;
+}
+/*👉=========================================
+            End ADD khách hàng
+=========================================👈*/
+
+/*👉=
+=
+=
+=
+=
+=👈*/
+
+
+/*👉=========================================
+                Bình luận
+=========================================👈*/
+
+.listbl{
+    padding: 20px 20px 0 20px;
+
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+.row3mb10formds_binhluan>table{
+    background-color: #2A2E2F;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row3mb10formds_binhluan>table tr td{
+    height: 50px;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(1){
+    width: 4%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(2){
+    width: 7%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(3){
+    width: 17%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(4){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(5){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(6){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(6) img{
+    height: 150px;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(7){
+    width: 7%;
+    text-align: center;
+}
+
+
+.row3mb10formds_binhluan>table tr td:nth-child(8){
+    width: 9%;
+    text-align: center;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(8) a input{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 80px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.row3mb10formds_binhluan>table tr td:nth-child(8) a input:hover{
+    background-color: red;
+}
+
+.rowmb_sanpham>a>input{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.rowmb_sanpham>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+                End Bình luận
+=========================================👈*/
+
+/*👉=
+=
+=
+=
+=
+=👈*/
+
+
+/*👉=========================================
+                Đơn hàng
+=========================================👈*/
+
+.donhang{
+    padding: 20px 20px 0 20px;
+
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+.row3mb10formds_donhang>table{
+    background-color: #2A2E2F;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row3mb10formds_donhang>table tr td{
+    height: 50px;
+}
+
+.row3mb10formds_donhang>table tr td:nth-child(1){
+    width: 4%;
+    text-align: center;
+}
+
+.row3mb10formds_donhang>table tr td:nth-child(2){
+    width: 25%;
+    text-align: center;
+}
+
+.row3mb10formds_donhang>table tr td:nth-child(3){
+    width: 20%;
+    text-align: center;
+}
+
+.row3mb10formds_donhang>table tr td:nth-child(4){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_donhang>table tr td:nth-child(4) input{
+    margin-bottom: 5px;
+    height: 30px;
+    min-width: 120px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.row3mb10formds_donhang>table tr td:nth-child(4) input:hover{
+    background-color: red;
+}
+
+.rowmb_sanpham>a>input{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.rowmb_sanpham>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+                End Đơn hàng
+=========================================👈*/
+
+/*👉=
+=
+=
+=
+=
+=👈*/
+
+/*👉=========================================
+                Thống kê
+=========================================👈*/
+
+.thongke{
+    padding: 20px 20px 0 20px;
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+.row3mb10formds_thongke>table{
+    background-color: #2A2E2F;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.row3mb10formds_thongke>table tr td{
+    height: 50px;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(1){
+    width: 5%;
+    text-align: center;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(2){
+    width: 30%;
+    text-align: center;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(3){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(4){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(5){
+    width: 10%;
+    text-align: center;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(6){
+    width: 15%;
+    text-align: center;
+}
+
+.row3mb10formds_thongke>table tr td:nth-child(6) img{
+    height: 150px;
+}
+
+.rowmb_sanpham>a>input{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.rowmb_sanpham>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+                End Thống kê
+=========================================👈*/
+
+/*👉=========================================
+                Biểu đồ Thống kê
+=========================================👈*/
+
+.bieudo{
+    padding: 20px 20px 0 20px;
+
+    height: 708px;
+    color: chocolate;
+    background-color: darkgrey;
+}
+
+.row2font_title{
+    text-align: start;
+    font-size: 10px;
+}
+
+.row2orm_bieudothongke{
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#myChart text {
+    fill: white !important;
+}
+
+.rowmb_sanpham>a>input{
+    height: 35px;
+    padding: 0 5px;
+    margin-right: 8px;
+    margin-bottom: 100px;
+    border: 0;
+    background-color: aquamarine;
+}
+
+.rowmb_sanpham>a>input:hover{
+    background-color: red;
+}
+
+/*👉=========================================
+                End Biểu đồ Thống kê
+=========================================👈*/
